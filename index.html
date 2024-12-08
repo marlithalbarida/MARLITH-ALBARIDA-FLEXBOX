@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    
+    body{
+        padding: 4px;
+        height: calc(100vh - 8px);
+    }
+
+    .border{
+        border: 1px solid black;
+    }
+
+    .d-flex{
+        display: flex;
+    }
+
+    .g-5{
+        gap: 5px;
+    }
+
+    .p-4{
+        padding: 4px;
+    }
+
+    .p-3{
+        padding: 3px;
+    }
+
+    .p-2{
+        padding: 2px
+    }
+
+    .f-grow-1{
+        flex-grow: 1;
+    }
+
+    .f-grow-2{
+        flex-grow: 2;
+    }
+
+    .margin-2{
+        margin: 2px;
+    }
+
+    .margin-3{
+        margin: 3px;
+    }
+
+    .margin-4{
+        margin: 4px;
+    }
+
+    .f-grow-3{
+        flex-grow: 3;
+    }
+
+    .f-grow-4{
+        flex-grow: 4;
+    }
+
+    
+    .align-content-start{
+        align-content: flex-start ;
+    }
+
+    .align-content-end{
+        align-content: flex-end;
+    }
+
+    .align-content-center{
+        align-content: center;
+    }
+
+    .align-items-start{
+        align-items: flex-start;
+    }
+    
+    .align-items-end{
+        align-items: flex-end;
+    }
+
+    .align-items-center{
+        align-items: center;
+    }
+    .justify-content-start{
+        justify-content: flex-start;
+    }
+
+    .justify-content-end{
+        justify-content: flex-end;
+    }
+
+    .justify-content-center{
+        justify-content: center;
+    }
+
+    .justify-items-start{
+        justify-items: flex-start;
+    }
+
+    .justify-items-end{
+        justify-items: flex-end;
+    }
+    
+    .justify-items-center{
+        justify-items: center;
+    }
+    .f-direction-column{
+        flex-direction: column;
+    }
+
+    .f-direction-row{
+        flex-direction: row;
+    }
+    
+    .navbox{
+      padding: 12px;
+      width: 0.3vw;
+      background-color: red;
+      border: none;
+      height: 1vh;
+    }
+    .navflex{
+        margin-right: auto;
+    }
+    .nav3box{
+        padding: 10px;
+        width: 1.7vw;
+        background-color: red;
+        border: none;
+    }
+    .ftrbox1{
+        padding: 12px;
+        width: 0.3vw;
+        border: none;
+        background-color: red;
+        height: 1vh;
+    }
+    .ftrbox5{
+        border: none;
+        background-color: red;
+        padding: 7px;
+    }
+    .aside1boxs133{
+        padding: 4px;
+        height: 8.3vh;
+        width: 5.2vw;
+    }
+    .asideboxss10{
+        padding: 12.5px;
+        width: 10vw;
+        flex-grow: 1;
+        display: flex;
+
+    }
+    .aside2box3s{
+        padding: 4px;
+        height: 22vh;
+        width: 15vw;
+        gap: 5px;
+        padding: 4px;
+
+        
+    }
+    .aside2box3{
+        padding: 4px;
+        display: flex;
+        margin: 3px;
+        justify-content: space-between;
+    }
+
+</style>
+<body class="d-flex g-5 f-direction-column">
+    <div class="nav border  g-5  p-3 d-flex">
+        <div class="navbox border"></div>
+        <div class="navflex align-items-center d-flex">FLEXBOX</div>
+        <div class="navbox3 d-flex g-5 align-items-center">
+            <div class="nav3box border"></div>
+            <div class="nav3box border"></div>
+        </div>
+    </div>
+
+    <div class="main d-flex g-5 f-grow-1 ">
+        <div class="aside1 border p-4 f-grow-4">
+            <div class="aside1box2 g-5 p-2 d-flex f-direction-column">
+                <div class="aside1boxs2 border p-3">
+                    <div class="aside1boxs13 d-flex g-5 p-4">
+                        <div class="aside1boxs133 border"></div>
+                        <div class="aside1boxs133 border"></div>
+                        <div class="aside1boxs133 border"></div>
+                        <div class="aside1boxs133 border"></div>
+                        <div class="aside1boxs133 border"></div>
+                        <div class="aside1boxs133 border"></div>
+                        <div class="aside1boxs133 border"></div>
+                        <div class="aside1boxs133 border"></div>
+                        <div class="aside1boxs133 border"></div>
+                        <div class="aside1boxs133 border"></div>
+                        <div class="aside1boxs133 border"></div>
+                        <div class="aside1boxs133 border"></div>
+                        <div class="aside1boxs133 border"></div>
+                    </div>
+                    <div class="aside1boxs13 g-5 p-4 d-flex">
+                        <div class="aside1boxs133 border"></div>
+                        <div class="aside1boxs133 border"></div>
+                    </div>
+                </div>
+                <div class="aside1boxs2 border g-5">
+                   <div class="aside2box3 d-flex p-3 g-5">
+                     <div class="aside2box3s border "></div>
+                     <div class="aside2box3s border "></div>
+                     <div class="aside2box3s border "></div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="aside2 border p-4">
+            <div class="asideboxs210 p-1 d-flex f-direction-column g-5">
+                <div class="asideboxss10 border"></div>
+                <div class="asideboxss10 border"></div>
+                <div class="asideboxss10 border"></div>
+                <div class="asideboxss10 border"></div>
+                <div class="asideboxss10 border"></div>
+                <div class="asideboxss10 border"></div>
+                <div class="asideboxss10 border"></div>
+                <div class="asideboxss10 border"></div>
+                <div class="asideboxss10 border"></div>
+                <div class="asideboxss10 border"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer border  g-5 f-direction-column">
+        <div class="ftrup d-flex align-items-center g-5 p-3">
+            <div class="ftrbox1 border"></div>
+            <div class="ftrflex d-flex">FLEXBOX</div>
+       </div>
+
+       <hr>
+
+       <div class="ftrdown d-flex g-5 p-4 justify-content-center">
+        <div class="ftrbox5 border "></div>
+        <div class="ftrbox5 border "></div>
+        <div class="ftrbox5 border "></div>
+        <div class="ftrbox5 border "></div>
+        <div class="ftrbox5 border "></div>
+       </div>
+
+       <div class="ftrcopy justify-content-center d-flex">©Copyright All rights reserved.</div>
+    </div>
+        
+
+    
+</body>
+</html>
